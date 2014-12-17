@@ -22,11 +22,12 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						// start the loop
 						while (have_posts()) {
 							the_post();
-							
+							/*
 							$id = the_ID();
 							$value = get_field( "client" );
+						
 							echo $value;
-							
+							*/
 							/* Include the Post-Format-specific template for the content.
 							* If you want to override this in a child theme, then include a file
 							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
@@ -42,4 +43,4 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 					</main>
 				</div>
 		</div>
-<?php get_footer(); ?>
+<!-- ?php get_footer(); ? -->
